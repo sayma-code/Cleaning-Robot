@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<robot>
+
+	<material name="Blue">
+		<color rgba="70 229 221 1.0"/>
+	</material>
+
+	<material name="PBlack">
+		<color rgba="40 5 34 1.0"/>
+	</material>
+
+	<material name="WBlack">
+		<color rgba="0.117 0.117 0.117 1.0"/>
+	</material>
+
+	<material name="HYellow">
+		<color rgba="1.0 0.811 0.151 1.0"/>
+	</material>
+
+	<material name="CRed">
+		<color rgba="0.8 0.0 0.0 1.0"/>
+	</material>
+
+	<material name="TBlack">
+		<color rgba="0.038 0.038 0.038 1.0"/>
+	</material>
+
+</robot>

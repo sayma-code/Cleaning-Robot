@@ -1,0 +1,8 @@
+ cd catkin_ws
+source devel/setup.bash
+cd ~/catkin_ws/src/spcbot
+roscore
+roslaunch spcbot_gazebo spcbot_gazebo.launch
+roslaunch spcbot_description rviz.launch
+
+rostopic pub -1 cmd_vel geometry_msgs/Twist
